@@ -1,0 +1,278 @@
+﻿ID,Longitude,Latitude,Title,Date,Color
+E7136,-93.722172,36.196799,"Establish Residence - Huntsville,AR - 2010-01-15",1/15/2010,yellow
+E8036,-77.9467119,40.4233554,"Homicide - South Huntington,PA - 2010-03-29",3/29/2010,red
+E7991,-98.4933873,33.9137085,"Homicide - Wichita Falls,TX - 2010-04-20",4/20/2010,red
+E8019,-90.1745614,35.1644588,"Homicide - West Memphis,AR - 2010-05-21",5/21/2010,red
+E6974,-90.0489801,35.1495343,"Other - Memphis,TN - 2010-05-31",5/31/2010,yellow
+E5867,-92.1313784,34.7519275,"Weapons Acquisition-Storage - Unknown City,AR - 2010-06-06",6/6/2010,orange
+E6557,-91.8318334,35.20105,"Materials Acquisition-Storage - Unknown City,AR - 2010-06-06",6/6/2010,orange
+E7473,-93.7413032,36.086187,"Other - Huntsville,AR - 2010-06-06",6/6/2010,yellow
+E2881,-93.4039343,36.1835546,"Bombing-Explosion - Osage,AR - 2010-06-08",6/8/2010,red
+E6215,-120.0746989,36.9910617,"Sabotage-Tampering-Vandalism - Madera,CA - 2010-08-18",8/18/2010,yellow
+E2874,-120.0746989,36.9910617,"Facility-Infrastructure Attack - Madera,CA - 2010-08-20",8/20/2010,red
+E6412,-120.051955,36.945215,"Expressed-Implied Threat - Madera,CA - 2010-08-20",8/20/2010,yellow
+E6413,-120.0628504,36.9603642,"Sabotage-Tampering-Vandalism - Madera,CA - 2010-08-26",8/26/2010,yellow
+E6702,-120.0376037,36.9533838,"Expressed-Implied Threat - Madera,CA - 2010-08-27",8/27/2010,yellow
+E6417,-120.051955,36.945215,"Expressed-Implied Threat - Madera,CA - 2010-08-30",8/30/2010,yellow
+E2875,-120.051955,36.945215,"Facility-Infrastructure Attack - Madera,CA - 2010-09-02",9/2/2010,red
+E6477,-120.0659795,36.9554431,"Weapons Acquisition-Storage - Madera,CA - 2010-09-02",9/2/2010,orange
+E2870,-102.3508628,31.395274,"Facility-Infrastructure Attack - Crane,TX - 2010-12-28",12/28/2010,red
+E2871,-102.3500078,31.3966692,"Facility-Infrastructure Attack - Crane,TX - 2010-12-28",12/28/2010,red
+E2872,-102.351853,31.3981311,"Facility-Infrastructure Attack - Crane,TX - 2010-12-28",12/28/2010,red
+E2873,-102.3531235,31.3948978,"Facility-Infrastructure Attack - Crane,TX - 2010-12-28",12/28/2010,red
+E7863,-84.3710617,33.7116126,"Homicide - Atlanta,GA - 2011-03-01",3/1/2011,red
+E7865,-90.2270676,32.2898603,"Homicide - Jackson,MS - 2011-06-26",6/26/2011,red
+E7271,-87.190573,30.49379,"Other - Pensacola,FL - 2011-09-15",9/15/2011,yellow
+E8023,-124.1636729,40.8020712,"Homicide - Eureka,CA - 2011-10-02",10/2/2011,red
+E8022,-123.2620435,44.5645659,"Homicide - Corvallis,OR - 2011-10-04",10/4/2011,red
+E7272,-87.2169149,30.421309,"Materials Acquisition-Storage - Pensacola,FL - 2011-12-01",12/1/2011,orange
+E483,-73.931351,40.697132,"Facility-Infrastructure Attack - New York City,NY - 2012-01-01",1/1/2012,red
+E484,-73.931351,40.697132,"Facility-Infrastructure Attack - New York City,NY - 2012-01-01",1/1/2012,red
+E485,-73.931351,40.697132,"Facility-Infrastructure Attack - New York City,NY - 2012-01-01",1/1/2012,red
+E486,-73.931351,40.697132,"Facility-Infrastructure Attack - New York City,NY - 2012-01-01",1/1/2012,red
+E6763,-88.4141371,44.3168675,"Materials Acquisition-Storage - Appleton,WI - 2012-04-01",4/1/2012,orange
+E6764,-88.3992925,44.2358353,"Materials Acquisition-Storage - Appleton,WI - 2012-04-01",4/1/2012,orange
+E8024,-95.992775,36.1539816,"Homicide - Tulsa,OK - 2012-04-06",4/6/2012,red
+E442,-79.711978,36.659582,"Facility-Infrastructure Attack - Axton,VA - 2012-05-20",5/20/2012,red
+E444,-96.698886,33.019843,"Bombing-Explosion - Plano,TX - 2012-06-18",6/18/2012,red
+E18307,-96.6988856,33.0198431,"Bombing-Explosion - Plano,TX - 2012-06-18",6/18/2012,red
+E380,-94.5363562,37.056394,"Facility-Infrastructure Attack - Joplin,MO - 2012-07-04",7/4/2012,red
+E381,-87.863136,42.88585,"Armed Assault - Oak Creek,WI - 2012-08-05",8/5/2012,red
+E382,-94.5363562,37.056394,"Facility-Infrastructure Attack - Joplin,MO - 2012-08-06",8/6/2012,red
+E18308,-97.3333436,32.7496312,"Assassination - Forth Worth,TX - 2012-09-28",9/28/2012,red
+E385,-83.618569,41.528165,"Facility-Infrastructure Attack - Perrysburg,OH - 2012-09-30",9/30/2012,red
+E8025,-92.036845,30.2078384,"Homicide - Lafayette,LA - 2012-10-14",10/14/2012,red
+E7911,-84.6478753,38.8074354,"Homicide - Verona,KY - 2013-01-09",1/9/2013,red
+E7912,-85.4938239,31.3190612,"Homicide - Midland City,AL - 2013-01-29",1/29/2013,red
+E18334,-73.7562317,42.6525793,"Unarmed Assault - Albany,NY - 2013-06-19",6/19/2013,red
+E7842,-81.6962807,34.826476,"Homicide - Jonesville,SC - 2013-07-21",7/21/2013,red
+E400,-71.454741,42.995673,"Facility-Infrastructure Attack - Manchester,NH - 2013-07-25",7/25/2013,red
+E7494,-90.0489801,35.1495343,"Other - Memphis,TN - 2014-02-05",2/5/2014,orange
+E7520,-85.1633073,34.352002,"Surveillance-Reconnaissance - Rome,GA - 2014-02-06",2/6/2014,orange
+E7311,-85.149928,34.234341,"Weapons Acquisition-Storage - Rome,GA - 2014-02-08",2/8/2014,orange
+E7351,-85.2538028,34.2710332,"Weapons Acquisition-Storage - Rome,GA - 2014-02-13",2/13/2014,orange
+E7353,-85.2308414,34.2828967,"Surveillance-Reconnaissance - Unknown City,GA - 2014-02-14",2/14/2014,orange
+E7354,-85.2308414,34.2828967,"Materials Acquisition-Storage - Unknown City,GA - 2014-02-14",2/14/2014,orange
+E2919,-84.7880337,34.2029302,"Bombing-Explosion - Cartersville,GA - 2014-02-15",2/15/2014,red
+E7355,-85.2308414,34.2828967,"Weapons Acquisition-Storage - Unknown City,GA - 2014-02-15",2/15/2014,orange
+E7378,-84.7880337,34.2029302,"Surveillance-Reconnaissance - Cartersville,GA - 2014-02-15",2/15/2014,orange
+E18148,-114.1281,36.7684,"Armed Assault - Bunkerville,NV - 2014-04-12",4/12/2014,red
+E409,-94.670792,38.982228,"Armed Assault - Overland Park,KS - 2014-04-13",4/13/2014,red
+E410,-94.670792,38.982228,"Armed Assault - Overland Park,KS - 2014-04-13",4/13/2014,red
+E7899,-119.858282,34.411929,"Armed Assault - Isla Vista,CA - 2014-05-23",5/23/2014,red
+E7900,-119.855348,34.414238,"Armed Assault - Isla Vista,CA - 2014-05-23",5/23/2014,red
+E414,-84.1385231,34.2064247,"Bombing-Explosion - Cumming,GA - 2014-06-06",6/6/2014,red
+E415,-115.247536,36.211296,"Armed Assault - Las Vegas,NV - 2014-06-08",6/8/2014,red
+E418,-97.064381,33.15407,"Bombing-Explosion - Corinth,TX - 2014-08-11",8/11/2014,red
+E420,-75.154073,41.370121,"Armed Assault - Blooming Grove,PA - 2014-09-12",9/12/2014,red
+E423,-106.62154,35.068259,"Facility-Infrastructure Attack - Albuquerque,NM - 2014-10-24",10/24/2014,red
+E7846,-84.33936,30.4959377,"Homicide - Tallahassee,FL - 2014-11-22",11/22/2014,red
+E426,-118.788597,45.672075,"Bombing-Explosion - Pendleton,OR - 2014-11-23",11/23/2014,red
+E427,-97.698654,30.283581,"Armed Assault - Austin,TX - 2014-11-28",11/28/2014,red
+E428,-97.698654,30.283581,"Armed Assault - Austin,TX - 2014-11-28",11/28/2014,red
+E429,-97.698654,30.283581,"Armed Assault - Austin,TX - 2014-11-28",11/28/2014,red
+E433,-79.009738,35.896708,"Armed Assault - Chapel Hill,NC - 2015-02-10",2/10/2015,red
+E18546,-77.95803419,35.39928893,"Homicide - Goldsboro,NC - 2015-04-13",4/13/2015,red
+E373,-79.933101,32.787474,"Armed Assault - Charleston,SC - 2015-06-17",6/17/2015,red
+E12,-92.045686,30.201966,"Armed Assault - Lafayette,LA - 2015-07-23",7/23/2015,red
+E18450,-96.8178137,32.9535236,"Facility-Infrastructure Attack - Addison,TX - 2015-08-29",8/29/2015,red
+E7906,-123.333302,43.288981,"Hostage Taking (Barricade Incident) - Roseburg,OR - 2015-10-01",10/1/2015,red
+E20,-88.709435,34.308638,"Bombing-Explosion - Tupelo,MS - 2015-11-01",11/1/2015,red
+E22,-118.348342,33.959535,"Unarmed Assault - Ingelwood,CA - 2015-11-06",11/6/2015,red
+E23,-72.840257,41.519714,"Armed Assault - Meriden,CT - 2015-11-15",11/15/2015,red
+E24,-77.146621,38.861472,"Facility-Infrastructure Attack - Falls Church,VA - 2015-11-19",11/19/2015,red
+E25,-93.260193,44.964985,"Armed Assault - Minneapolis,MN - 2015-11-23",11/23/2015,red
+E28,-73.931351,40.697132,"Unarmed Assault - New York City,NY - 2015-12-05",12/5/2015,red
+E29,-97.044649,47.900053,"Facility-Infrastructure Attack - Grand Forks,ND - 2015-12-08",12/8/2015,red
+E30,-116.187442,33.69288,"Facility-Infrastructure Attack - Coachella,CA - 2015-12-11",12/11/2015,red
+E34,-118.844083,43.265841,"Facility-Infrastructure Attack - Princeton,OR - 2016-01-02",1/2/2016,red
+E36,-73.931351,40.697132,"Unarmed Assault - New York City,NY - 2016-01-15",1/15/2016,red
+E38,-86.246998,39.207489,"Armed Assault - Nashville,IN - 2016-02-18",2/18/2016,red
+E39,-117.829953,34.605975,"Armed Assault - Lake Los Angeles,CA - 2016-02-28",2/28/2016,red
+E18391,-113.3254964,36.4119253,"Bombing-Explosion - Mount Trumbull,AZ - 2016-06-21",6/21/2016,red
+E54,-96.347518,30.62228,"Armed Assault - College Station,TX - 2016-07-07",7/7/2016,red
+E7841,-122.4302013,45.5001357,"Homicide - Gresham,OR - 2016-08-10",8/10/2016,red
+E7866,-85.1617944,41.0868597,"Homicide - Fort Wayne,IN - 2016-08-21",8/21/2016,red
+E2775,-80.337837,27.374522,"Facility-Infrastructure Attack - Fort Pierce,FL - 2016-09-12",9/12/2016,red
+E2791,-96.796988,32.776664,"Assassination - Dallas,TX - 2016-12-15",12/15/2016,red
+E482,-87.190573,30.49379,"Facility-Infrastructure Attack - Pensacola,FL - 2012-01-01",1/1/2012,red
+E440,-88.4292652,44.2833164,"Facility-Infrastructure Attack - Grand Chute,WI - 2012-04-01",4/1/2012,red
+P1467,-85.1633073,34.352002,Terry Eugene Peace,,blue
+P1468,-85.1633073,34.352002,Cory Robert Williamson,,blue
+P1466,-85.1633073,34.352002,Brian Edward Cannon,,blue
+E18550,-76.9170856,40.9879325,"Homicide - Lewisburg,PA - 1997-08-28",8/28/1997,red
+E2815,-71.0563774,42.357585,"Bombing-Explosion - Boston,MA - 2001-05-15",5/15/2001,red
+E2893,-97.1453002,33.6242635,"Facility-Infrastructure Attack - Gainesville,TX - 2006-02-21",2/21/2006,red
+E6270,-70.850726,42.671607,"Establish Residence - Ipswich,MA - 2001-01-30",1/30/2001,yellow
+E6272,-70.850726,42.671607,"Materials Acquisition-Storage - Ipswich,MA - 2001-03-15",3/15/2001,yellow
+E6274,-74.1675082,40.7126446,"Other - Newark,NJ - 2000-10-15",10/15/2000,yellow
+E6275,-71.0588801,42.3600825,"Weapons Acquisition-Storage - Boston,MA - 2001-04-08",4/8/2001,yellow
+E6276,-71.0562,42.3631186,"Materials Acquisition-Storage - Boston,MA - 2001-04-16",4/16/2001,orange
+E6277,-71.0562,42.3631186,"Materials Acquisition-Storage - Boston,MA - 2001-04-15",4/15/2001,orange
+E6326,-70.850726,42.671607,"Other - Ipswich,MA - 2001-02-15",2/15/2001,orange
+E6343,-71.0562,42.3631186,"Establish Residence - Boston,MA - 2001-04-06",4/6/2001,orange
+E6344,-71.0562,42.3631186,"Acquisition of Expertise - Boston,MA - 2001-04-15",4/15/2001,orange
+E6345,-71.0588801,42.3600825,"Surveillance-Reconnaissance - Boston,MA - 2001-02-21",2/21/2001,orange
+E6346,-70.850726,42.671607,"Other - Ipswich,MA - 2001-02-21",2/21/2001,yellow
+E6347,-70.8411558,42.6791832,"Weapons Acquisition-Storage - Ipswich,MA - 2001-02-21",2/21/2001,yellow
+E6350,-70.850726,42.671607,"Materials Acquisition-Storage - Ipswich,MA - 2001-02-20",2/20/2001,orange
+E6382,-70.9442999,42.5411047,"Theft-Loss-Diversion - Peabody,MA - 2001-04-18",4/18/2001,orange
+E6383,-71.0574266,42.3297576,"Theft-Loss-Diversion - Boston,MA - 2001-04-19",4/19/2001,orange
+E6398,-74.1675082,40.7126446,"Recruitment - Newark,NJ - 2000-12-15",12/15/2000,yellow
+E6399,-74.4056612,40.0583238,"Recruitment - Unknown City,NJ - 2001-02-15",2/15/2001,yellow
+E6400,-70.8411558,42.6791832,"Materials Acquisition-Storage - Ipswich,MA - 2001-02-21",2/21/2001,orange
+E6401,-70.8411558,42.6791832,"Weapons Acquisition-Storage - Ipswich,MA - 2001-02-21",2/21/2001,yellow
+E6415,-74.1675082,40.7126446,"Recruitment - Newark,NJ - 2000-11-15",11/15/2000,yellow
+E6416,-74.1675082,40.7126446,"Other - Newark,NJ - 2001-01-28",1/28/2001,yellow
+E6421,-71.0772585,42.3504318,"Theft-Loss-Diversion - Boston,MA - 2001-02-21",2/21/2001,orange
+E6422,-70.8411558,42.6791832,"Materials Acquisition-Storage - Ipswich,MA - 2001-03-05",3/5/2001,orange
+E6424,-71.0562,42.3631186,"Materials Acquisition-Storage - Boston,MA - 2001-04-07",4/7/2001,orange
+E6425,-71.058993,42.3540909,"Theft-Loss-Diversion - Boston,MA - 2001-04-12",4/12/2001,orange
+E6426,-70.9392495,42.5526233,"Theft-Loss-Diversion - Danvers,MA - 2001-04-17",4/17/2001,orange
+E6591,-92.6593391,33.2217806,"Weapons Acquisition-Storage - El Dorado,AR - 2001-04-17",4/17/2001,orange
+E6852,-97.1333453,33.6259414,"Materials Acquisition-Storage - Gainesville,TX - 2006-02-21",2/21/2006,orange
+E7067,-70.9945608,42.410668,"Theft-Loss-Diversion - Revere,MA - 2001-04-19",4/19/2001,orange
+E7068,-74.1675082,40.7126446,"Other - Newark,NJ - 2000-04-15",4/15/2000,yellow
+E7071,-74.1675082,40.7126446,"Recruitment - Newark,NJ - 2000-02-15",2/15/2000,yellow
+E7072,-70.850726,42.671607,"Weapons Acquisition-Storage - Ipswich,MA - 2000-06-15",6/15/2000,yellow
+E7092,-70.850726,42.671607,"Acquisition of Expertise - Ipswich,MA - 2001-02-15",2/15/2001,yellow
+E7096,-70.850726,42.671607,"Other - Ipswich,MA - 2001-04-19",4/19/2001,yellow
+E7097,-71.0562,42.3631186,"Other - Boston,MA - 2001-04-21",4/21/2001,yellow
+E7127,-71.0662065,42.3671284,"Other - Boston,MA - 2001-04-22",4/22/2001,yellow
+E7128,-75.1837216,39.7857414,"Theft-Loss-Diversion - Mantua,NJ - 2001-02-27",2/27/2001,yellow
+E7129,-86.8959617,41.6821215,"Materials Acquisition-Storage - Michigan City,IN - 2001-03-08",3/8/2001,yellow
+E7199,-71.2343206,42.4226653,"Other - Lexington,MA - 2001-04-18",4/18/2001,orange
+E7475,-71.0573849,42.3389006,"Arrest - Boston,MA - 2001-04-19",4/19/2001,yellow
+E7860,-85.538541,30.7818584,"Homicide - Chipley,FL - 2006-11-00",2006-11-00,red
+E7877,-112.0631064,33.6115136,"Homicide - Phoenix,AZ - 2001-05-12",5/12/2001,red
+E7914,-83.472571,39.908255,"Homicide - London,OH - 1996-04-25",4/25/1996,red
+E7996,-82.5127599,40.7950262,"Homicide - Mansfield,OH - 1992-06-26",6/26/1992,red
+E8063,-88.987715,37.6612777,"Homicide - Marion,IL - 1999-05-18",5/18/1999,red
+E6722,-82.3017728,29.6579549,"Arrest - Unknown City,FL - 2009-12-12",12/12/2009,yellow
+E404,-94.5028463,37.0832668,"Facility-Infrastructure Attack - Joplin,MO - 2013-10-03",10/3/2013,red
+E405,-94.5028463,37.0832668,"Facility-Infrastructure Attack - Joplin,MO - 2013-10-04",10/4/2013,red
+E5879,-78.6046927,35.8209493,"Expressed-Implied Threat - Raleigh,NC - 1987-04-23",4/23/1987,orange
+E5927,-93.7501789,32.5251516,"Expressed-Implied Threat - Shreveport,LA - 1987-04-20",4/20/1987,orange
+E5928,-92.1193012,32.5093109,"Misrepresentation - Monroe,LA - 1987-04-06",4/6/1987,yellow
+E5975,-97.092877,35.0077519,"Recruitment - Unknown City,OK - 1987-03-15",3/15/1987,orange
+E6273,-86.1349019,40.2671941,"Weapons Acquisition-Storage - Unknown City,IN - 2001-03-30",3/30/2001,orange
+E6423,-86.1349019,40.2671941,"Other - Unknown City,IN - 2001-04-07",4/7/2001,yellow
+E7095,-71.0662065,42.3671284,"Other - Boston,MA - 2001-04-20",4/20/2001,yellow
+E18181,-79.8912675,35.2145629,"Armed Assault - Unknown City,NC - 1987-00-00",1987-00-00,red
+E18182,-86.3032443,32.3761399,"Assassination - Montgomery,AL - 1987-00-00",1987-00-00,red
+E511,-117.25507,47.657162,"Hostage Taking (Barricade Incident) - Spokane,WA - 1984-01-30",1/30/1984,red
+E529,-122.331306,47.610786,"Facility-Infrastructure Attack - Seattle,WA - 1984-03-16",3/16/1984,red
+E566,-122.331306,47.610786,"Bombing-Explosion - Seattle,WA - 1984-04-22",4/22/1984,red
+E5752,-122.3320708,47.6062095,"Surveillance-Reconnaissance - Seattle,WA - 1983-11-15",11/15/1983,orange
+E582,-122.331306,47.610786,"Facility-Infrastructure Attack - Seattle,WA - 1984-04-23",4/23/1984,red
+E5924,-122.60363,48.0901799,"Other - Greenbank,WA - 1984-12-03",12/3/1984,yellow
+E5925,-111.8910474,40.7607793,"Other - Salt Lake City,UT - 1984-12-06",12/6/1984,yellow
+E5972,-111.8910474,40.7607793,"Establish Residence - Salt Lake City,UT - 1984-12-09",12/9/1984,yellow
+E5973,-86.80249,33.5206608,"Other - Birmingham,AL - 1984-12-15",12/15/1984,yellow
+E5974,-113.0618931,37.6774769,"Other - Cedar City,UT - 1984-12-09",12/9/1984,yellow
+E599,-116.214619,43.618518,"Bombing-Explosion - Boise,ID - 1984-04-29",4/29/1984,red
+E6073,-113.0618931,37.6774769,"Establish Residence - Cedar City,UT - 1984-12-09",12/9/1984,yellow
+E6075,-80.390871,27.6307506,"Other - Vero Beach,FL - 1984-12-10",12/10/1984,yellow
+E6076,-113.0618931,37.6774769,"Materials Acquisition-Storage - Cedar City,UT - 1984-12-09",12/9/1984,orange
+E6083,-91.8523711,36.7281154,"Weapons Acquisition-Storage - West Plains,MO - 1984-05-11",5/11/1984,orange
+E6084,-80.2037467,27.1458349,"Other - Stuart,FL - 1984-12-09",12/9/1984,yellow
+E6085,-80.2757622,27.4186644,"Misrepresentation - Fort Pierce,FL - 1984-12-19",12/19/1984,yellow
+E6088,-80.3972736,27.6386434,"Misrepresentation - Vero Beach,FL - 1984-12-07",12/7/1984,yellow
+E6089,-117.2434444,47.6575004,"Theft-Loss-Diversion - Spokane,WA - 1984-01-30",1/30/1984,orange
+E6091,-122.6664251,38.29975,"Misrepresentation - Penngrove,CA - 1984-07-16",7/16/1984,orange
+E6092,-94.485217,36.5456293,"Other - Noel,MO - 1984-08-21",8/21/1984,orange
+E6093,-122.3662962,47.7287229,"Theft-Loss-Diversion - Seattle,WA - 1983-12-20",12/20/1983,orange
+E6129,-120.7401386,47.7510741,"Theft-Loss-Diversion - Unknown City,WA - 1984-03-16",3/16/1984,orange
+E6130,-122.4395026,47.9982761,"Establish Residence - Whidbey Island,WA - 1984-10-26",10/26/1984,yellow
+E6131,-95.8900647,36.186809,"Other - Tulsa,OK - 1985-09-25",9/25/1985,yellow
+E6132,-111.8910474,40.7607793,"Other - Salt Lake City,UT - 1984-12-06",12/6/1984,yellow
+E6133,-123.2077831,39.1501709,"Theft-Loss-Diversion - Ukiah,CA - 1984-07-19",7/19/1984,orange
+E6143,-122.4194155,37.7749295,"Theft-Loss-Diversion - San Francisco,CA - 1984-07-02",7/2/1984,orange
+E6165,-123.2077831,39.1501709,"Surveillance-Reconnaissance - Ukiah,CA - 1984-07-07",7/7/1984,yellow
+E6166,-119.4179324,36.778261,"Materials Acquisition-Storage - Unknown City,CA - 1984-07-14",7/14/1984,orange
+E635,-104.948679,39.739265,"Assassination - Denver,CO - 1984-06-18",6/18/1984,red
+E663,-123.207904,39.150935,"Facility-Infrastructure Attack - Ukiah,CA - 1984-07-19",7/19/1984,red
+E733,-117.341687,47.657239,"Facility-Infrastructure Attack - Spokane,WA - 1983-10-28",10/28/1983,red
+E18137,-122.3206747,47.6249584,"Bombing-Explosion - Seattle,WA - 1993-07-22",7/22/1993,red
+E18138,-122.4518247,47.2534022,"Bombing-Explosion - Tacoma,WA - 1993-07-20",7/20/1993,red
+E18156,-87.65,41.85,"Assassination - Chicago,IL - 2003-01-08",1/8/2003,red
+E184,-87.681229,41.842602,"Armed Assault - Chicago,IL - 1999-07-02",7/2/1999,red
+E185,-87.755679,42.02634,"Armed Assault - Skokie,IL - 1999-07-02",7/2/1999,red
+E186,-87.831564,42.12972,"Armed Assault - Northbrook,IL - 1999-07-02",7/2/1999,red
+E188,-88.952459,39.845845,"Armed Assault - Decatur,IL - 1999-07-03",7/3/1999,red
+E189,-89.643604,39.801055,"Armed Assault - Springfield,IL - 1999-07-03",7/3/1999,red
+E190,-86.509869,39.164021,"Armed Assault - Bloomington,IN - 1999-07-04",7/4/1999,red
+E2923,-88.1086346,41.5164481,"Facility-Infrastructure Attack - Joliet,IL - 2007-06-17",6/17/2007,red
+E5438,-88.1089775,41.5177034,"Expressed-Implied Threat - Joliet,IL - 2007-05-15",5/15/2007,yellow
+E5444,-88.1101565,41.5228028,"Materials Acquisition-Storage - Joliet,IL - 2007-06-01",6/1/2007,orange
+E5451,-88.108626,41.517332,"Other - Joliet,IL - 2007-06-16",6/16/2007,orange
+E7868,-81.3964734,30.311908,"Homicide - Neptune Beach,FL - 1991-05-17",5/17/1991,red
+E6086,-122.7140548,38.440429,"Misrepresentation - Santa Rosa,CA - 1984-07-18",7/18/1984,orange
+E6090,-75.1652215,39.9525839,"Theft-Loss-Diversion - Philadelphia,PA - 1984-06-29",6/29/1984,yellow
+E6104,-120.5058987,46.6020711,"Theft-Loss-Diversion - Yakima,WA - 1983-12-03",12/3/1983,yellow
+E6142,-122.7276029,38.4641834,"Theft-Loss-Diversion - Santa Rosa,CA - 1984-07-15",7/15/1984,orange
+E6167,-122.7140548,38.440429,"Materials Acquisition-Storage - Santa Rosa,CA - 1984-07-16",7/16/1984,orange
+E6246,-122.7276021,38.4633277,"Other - Santa Rosa,CA - 1984-07-18",7/18/1984,yellow
+E2908,-111.8902008,40.7668944,"Unarmed Assault - Salt Lake City,UT - 2002-12-31",12/31/2002,red
+E2909,-111.8939785,40.760514,"Unarmed Assault - Salt Lake City,UT - 2003-03-15",3/15/2003,red
+E5766,-111.8939785,40.760514,"Other - Salt Lake City,UT - 2003-03-15",3/15/2003,orange
+E7323,-111.8902008,40.7668944,"Other - Salt Lake City,UT - 2002-12-31",12/31/2002,yellow
+E7324,-111.8902008,40.7668944,"Other - Salt Lake City,UT - 2002-12-31",12/31/2002,orange
+E18167,-92.699956,36.237852,"Assassination - Unknown City,AR - 1983-12-26",12/26/1983,red
+E18168,-93.8135164,33.6145649,"Bombing-Explosion - Fulton,AR - 1983-11-02",11/2/1983,red
+E18169,-86.5317363,39.1658522,"Facility-Infrastructure Attack - Bloomington,IN - 1983-08-15",8/15/1983,red
+E18193,-93.3016221,37.2007387,"Facility-Infrastructure Attack - Springfield,MO - 1983-08-09",8/9/1983,red
+E18194,-93.8135164,33.6145649,"Bombing-Explosion - Fulton,AR - 1983-11-15",11/15/1983,red
+E495,-94.035794,33.43096,"Armed Assault - Texarkana,AR - 1983-11-11",11/11/1983,red
+E691,-93.291564,37.208975,"Facility-Infrastructure Attack - Springfield,MO - 1983-08-09",8/9/1983,red
+E707,-86.482511,39.163625,"Facility-Infrastructure Attack - Bloomington,IN - 1983-08-15",8/15/1983,red
+E746,-93.813484,33.61441,"Bombing-Explosion - Fulton,AR - 1983-11-02",11/2/1983,red
+E6087,-122.7559214,45.4274305,"Weapons Acquisition-Storage - Tigard,OR - 1984-06-18",6/18/1984,yellow
+E7198,-122.3320708,47.6062095,"Theft-Loss-Diversion - Seattle,WA - 1984-04-23",4/23/1984,orange
+E666,-116.757971,47.765793,"Bombing-Explosion - Hayden Lake,ID - 1986-03-06",3/6/1986,red
+E717,-116.792062,47.744503,"Bombing-Explosion - Hayden,ID - 1986-08-07",8/7/1986,red
+E719,-116.776166,47.677755,"Bombing-Explosion - Coeur D&#039;Alene,ID - 1986-09-16",9/16/1986,red
+E18538,-122.3211897,47.6144057,"Bombing-Explosion - Seattle,WA - 1990-05-12",5/12/1990,red
+E18539,-122.4442906,47.2528768,"Bombing-Explosion - Tacoma,WA - 1990-05-12",5/12/1990,red
+E195,-118.4939894,34.2798575,"Armed Assault - Granada Hills,CA - 1999-08-10",8/10/1999,red
+E589,-113.996234,46.87278,"Bombing-Explosion - Missoula,MT - 1987-04-19",4/19/1987,red
+E5894,-122.2041786,47.7192092,"Other - Kirkland,WA - 1998-10-28",10/28/1998,orange
+E6037,-122.3305256,47.6026451,"Other - Seattle,WA - 1998-10-30",10/30/1998,yellow
+E6041,-122.4832959,47.1941435,"Weapons Acquisition-Storage - Tacoma,WA - 1999-08-07",8/7/1999,orange
+E6064,-122.3305256,47.6026451,"Other - Seattle,WA - 1999-05-21",5/21/1999,yellow
+E721,-116.780419,47.677755,"Bombing-Explosion - Coeur D&#039;Alene,ID - 1986-09-29",9/29/1986,red
+E722,-116.780419,47.677755,"Bombing-Explosion - Coeur D&#039;Alene,ID - 1986-09-29",9/29/1986,red
+E723,-116.780419,47.677755,"Bombing-Explosion - Coeur D&#039;Alene,ID - 1986-09-29",9/29/1986,red
+E724,-116.780419,47.677755,"Bombing-Explosion - Coeur D&#039;Alene,ID - 1986-09-29",9/29/1986,red
+E7971,-71.6510056,42.5356675,"Homicide - Shirley,MA - 2003-08-23",8/23/2003,red
+E7879,-123.0236209,44.9370708,"Homicide - Salem,OR - 1992-09-26",9/26/1992,red
+E2035,-118.0229274,33.7609702,"Facility-Infrastructure Attack - Westminster,CA - 1993-01-18",1/18/1993,red
+E2292,-118.159791,33.88946,"Facility-Infrastructure Attack - Paramount,CA - 1992-12-00",1992-12-00,red
+E2804,-118.1339563,33.8536269,"Bombing-Explosion - Lakewood,CA - 1993-01-17",1/17/1993,red
+E6048,-118.3140488,33.7349075,"Weapons Acquisition-Storage - San Pedro,CA - 1993-04-28",4/28/1993,yellow
+E6049,-118.305879,33.7510841,"Weapons Acquisition-Storage - San Pedro,CA - 1993-05-04",5/4/1993,orange
+E6050,-119.4179324,36.778261,"Other - Unknown City,CA - 1993-06-05",6/5/1993,orange
+E6051,-119.4179324,36.778261,"Materials Acquisition-Storage - Unknown City,CA - 1993-07-06",7/6/1993,orange
+E6052,-119.4179324,36.778261,"Other - Unknown City,CA - 1993-07-06",7/6/1993,orange
+E6054,-119.4179324,36.778261,"Other - Unknown City,CA - 1993-04-30",4/30/1993,orange
+E6055,-117.9289469,33.6189101,"Weapons Acquisition-Storage - Newport Beach,CA - 1993-06-12",6/12/1993,orange
+E6056,-118.2436849,34.0522342,"Other - Los Angeles,CA - 1993-07-08",7/8/1993,orange
+E6057,-118.2436849,34.0522342,"Materials Acquisition-Storage - Los Angeles,CA - 1993-07-14",7/14/1993,orange
+E6058,-118.2436849,34.0522342,"Weapons Acquisition-Storage - Los Angeles,CA - 1993-07-11",7/11/1993,orange
+E6069,-118.2922461,33.7360619,"Materials Acquisition-Storage - San Pedro,CA - 1993-06-22",6/22/1993,orange
+E6110,-118.2436849,34.0522342,"Weapons Acquisition-Storage - Los Angeles,CA - 1993-07-14",7/14/1993,orange
+E6111,-118.2436849,34.0522342,"Materials Acquisition-Storage - Los Angeles,CA - 1993-07-15",7/15/1993,orange
+E6112,-118.2436849,34.0522342,"Weapons Acquisition-Storage - Los Angeles,CA - 1993-07-15",7/15/1993,orange
+E6114,-118.2436849,34.0522342,"Materials Acquisition-Storage - Los Angeles,CA - 1993-07-08",7/8/1993,orange
+E6116,-118.2436849,34.0522342,"Other - Los Angeles,CA - 1993-04-19",4/19/1993,yellow
+E6117,-118.2436849,34.0522342,"Other - Los Angeles,CA - 1993-04-20",4/20/1993,yellow
+E6118,-118.2436849,34.0522342,"Other - Los Angeles,CA - 1993-04-24",4/24/1993,yellow
+E6119,-118.2436849,34.0522342,"Weapons Acquisition-Storage - Los Angeles,CA - 1993-04-28",4/28/1993,yellow
+E6120,-118.305879,33.7510841,"Weapons Acquisition-Storage - San Pedro,CA - 1993-04-29",4/29/1993,yellow
+E6121,-118.2800766,33.7402412,"Weapons Acquisition-Storage - San Pedro,CA - 1993-04-29",4/29/1993,yellow
+E6122,-118.3140488,33.7349075,"Weapons Acquisition-Storage - San Pedro,CA - 1993-05-03",5/3/1993,orange
+E6123,-118.2800766,33.7402412,"Weapons Acquisition-Storage - San Pedro,CA - 1993-05-04",5/4/1993,orange
+E6124,-118.2922461,33.7360619,"Weapons Acquisition-Storage - San Pedro,CA - 1993-06-11",6/11/1993,orange
+E6125,-118.1937395,33.7700504,"Other - Long Beach,CA - 1993-06-08",6/8/1993,orange
+E6126,-117.1892078,34.2483396,"Acquisition of Expertise - Lake Arrowhead,CA - 1993-06-14",6/14/1993,orange
+E6127,-117.9939921,33.7513419,"Materials Acquisition-Storage - Westminster,CA - 1993-04-24",4/24/1993,yellow
