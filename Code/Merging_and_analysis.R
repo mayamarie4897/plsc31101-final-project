@@ -14,12 +14,12 @@ vice_lat_long_test <- vice_lat_long[1:10, ]
 #Getting location information for TEVUS:
 #Test
 county_test_tevus <- revgeo(tevus_lat_long_test$Longitude, tevus_lat_long_test$Latitude, 
-                            provider= 'google', API = "AIzaSyDsxtPNazZLYeveTkaWOpFjZgypNECpMno", 
+                            provider= 'google', API = "", 
                             output = 'frame')
                                       
 
 county_tevus <- revgeo(tevus_lat_long$Longitude, tevus_lat_long$Latitude, 
-                       provider= 'google', API = "AIzaSyDsxtPNazZLYeveTkaWOpFjZgypNECpMno", 
+                       provider= 'google', API = "", 
                        output = 'frame')
                                                              
 #Writing CSV for TEVUS city/state data
@@ -43,7 +43,7 @@ names(vice_lat_long_unique)[2] <- "longitude"
 
 #Gathering zip code information for VICE: 
 county_vice <- revgeo(vice_lat_long_unique$longitude, vice_lat_long_unique$latitude, 
-                      provider= 'google', API = "AIzaSyDsxtPNazZLYeveTkaWOpFjZgypNECpMno", 
+                      provider= 'google', API = "", 
                       output = 'frame')
 
 write.csv(county_vice,"C:\\Users\\Maya\\Documents\\Fall Quarter 2019\\Computation Social Science\\2019 Final Project\\VICE_county.csv", row.names = TRUE)

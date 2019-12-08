@@ -13,7 +13,7 @@ tevus_dat <- read.csv("tevus_data_2010_2016_rightwing.csv")
 
 #Getting the VICE data into coordinate form
 #Google API
-register_google(key = "AIzaSyDsxtPNazZLYeveTkaWOpFjZgypNECpMno")
+register_google(key = "")
 getOption("ggmap")
 
 

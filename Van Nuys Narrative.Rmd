@@ -28,7 +28,7 @@ library(tidyverse)
 library(ggmap)
 
 #Google API
-register_google(key = "AIzaSyDsxtPNazZLYeveTkaWOpFjZgypNECpMno")
+register_google(key = "")
 getOption("ggmap")
 
 #Longitude:
@@ -122,7 +122,7 @@ vice_lat_long <- adjusted_vice[, 18:19]
 #Converting TEVUS coordinates to city, state, and zipcode
 county_tevus <- revgeo(tevus_lat_long$Longitude, tevus_lat_long$Latitude,
                        provider= 'google', API = 
-                         "AIzaSyDsxtPNazZLYeveTkaWOpFjZgypNECpMno", output = 
+                         "", output = 
                          'frame')
 
 #Finding unique latitude and longitude values for VICE
@@ -132,7 +132,7 @@ vice_lat_long_unique <- vice_lat_long %>%
 
 county_vice <- revgeo(vice_lat_long_unique$longitude,
                       vice_lat_long_unique$latitude, provider= 'google', API = 
-                        "AIzaSyDsxtPNazZLYeveTkaWOpFjZgypNECpMno", output = 
+                        "", output = 
                         'frame')
 
 #Creating a dataframe to be added back to full unique dataset 
