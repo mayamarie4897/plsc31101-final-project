@@ -1,19 +1,19 @@
-# plsc31101-final-project
+plsc31101-final-project
 This is my final project for PLSC 31101
 
-#Project Description
+Project Description
 
 This project compares locations of police use of force and right wing extremist violence in the US. To accomplish this, the project utilizes two data sets: one from VICE News on police use of force and another from the Terrorism and Extremist Violence in the US (TEVUS) database on right wing extremist violence. To map the locations of these events, both datasets needed to have latitude and longitude coordinates, so the first part of the code allows one to convert the city names of the VICE data into coordinates. With coordinates, one can map both data sets on an interactive map. 
 
 To run statistical analysis and visualize the data, the project required merging the two data sets by location. To do this, the TEVUS data set needs zip code, city, and state information. The "revgeo" function allows one to translate coordinates into multiple levels of location data. After gathering zip codes, cities, and states for both data sets, one can merge the two together. This required trials at several different levels of analysis location-wise. There were few zip codes and cities that had both police use of force event and right wing extremist events, so the project analyzed state-level data. 
 
-#Dependencies
+Dependencies
 
 1. R, 3.6.1
 2. RStudio, Version 1.2.5001
 
 
-#Files
+Files
 
 1. Van Nuys Narrative.Rmd: Provides a 3-5 page narrative of the project, main challenges, solutions, and results.
 2. Van Nuys Narrative.pdf: A knitted pdf of the Narrative.Rmd.
