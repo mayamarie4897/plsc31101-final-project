@@ -1,6 +1,6 @@
 #Necessary packages
-library(ggmap)
-library(tidyverse)
+require(ggmap)
+require(tidyverse)
 
 #Loading data
 setwd("~/Fall Quarter 2019/Computation Social Science/2019 Final Project")
@@ -58,15 +58,12 @@ install.packages("sf")
 install.packages("mapview")
 install.packages("leafsync")
 
-library(lubridate)
-library(ggplot2)
-library(dplyr)
-library(data.table)
-library(ggrepel)
+require(ggplot2)
+require(dplyr)
 library(sf)
-library(mapview)
-library(leaflet)
-library(tidyverse)
+require(mapview)
+require(leaflet)
+require(viridis)
 
 #load new VICE csv
 adjusted_vice <- read.csv("Vice_with_lat_long.csv")

@@ -1,6 +1,5 @@
 #Adding in zip code, city, and state data to VICE and TEVUS
-install.packages("revgeo")
-library(revgeo)
+require(revgeo)
 
 #Getting unique latitude and longitude dataframes for each data set
 tevus_lat_long <- tevus_dat[, 2:3]
@@ -129,7 +128,7 @@ head(state_merge)
 
 #Plotting the data 
 
-library(ggplot2)
+require(ggplot2)
 
 #Adding state abbreviation column to merged data frame 
 state_merge$ID <- c("AZ", "CA", "CO", "FL", "GA", "IL", "IN", "KY", "LA", "MA", 
@@ -160,6 +159,8 @@ mod_1 <- lm(data = city_merge, vice ~ tevus)
 stargazer(mod_1, title = "Regression Results for Cities", type = "text", covariate.labels = "TEVUS: Right Wing", omit = "Constant", dep.var.labels = "DV: VICE Police Use of Force", keep.stat = "n", style = "ajps", out = "regression-table.txt")
 
 #State regression
+require(stargazer)
+
 mod_2 <- lm(data = state_merge, vice ~ tevus)
 
 stargazer(mod_2, title = "Regression Results for States", type = "text", 

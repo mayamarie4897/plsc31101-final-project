@@ -15,20 +15,20 @@ knitr::opts_chunk$set(warning=FALSE, message=FALSE)
 ```
 
 ## Background and Goal
-My research interests currently center on ideologically-motivated violence. Recently, I have been focusing on white supremacist and other right-wing extremist violence in the United States. I decided to use geospatial mapping to compare incidents of right wing terrorism to data on police use of deadly force. The motivation for this project comes from a history of the Klu Klux Klan (KKK) and other white supremacist groups infiltrating police departments in the United States. As such, one might expect cities where police departments have a history of white supremacist infiltration to (1) have higher rates of deadly use of force, as white supremacist influences would be permissive of violence, and (2) have higher rates of far right extremist violence, as the police departments would create permissive atmospheres for these types of crimes My goal is to visualize whether areas with higher rates of police use of force also have higher rates of far right extremist violence.  
+My research interests currently center on ideologically-motivated violence. Recently, I have been focusing on white supremacist and other right-wing extremist violence in the United States. I decided to use geospatial mapping to compare incidents of right wing terrorism to data on police use of deadly force. The motivation for this project comes from a history of the Klu Klux Klan (KKK) and other white supremacist groups infiltrating police departments in the United States. As such, one might expect cities where police departments have a history of white supremacist infiltration to (1) have higher rates of deadly use of force, as white supremacist influences would be permissive of violence, and (2) have higher rates of far right extremist violence, as the police departments would create permissive atmospheres for these types of crimes. My goal is to visualize whether areas with higher rates of police use of force also have higher rates of far right extremist violence.  
 
 ## Collecting data
-For my data, I utilized the Terrorism and Extremist Violence in the United States (TEVUS) dataset, compiled by the University of Maryland's National Consortium for the Study of Terrorism and Responses to Terrorism (START). For police use of force data, I used VICE News' dataset on police use of force in the country's 50 largest police departments between 2010 and 2016. This was the police violence data set that covered the longest period of time. I also restricted the TEVUS dataset to the same time period for consistency. 
+For my data, I utilized the Terrorism and Extremist Violence in the United States (TEVUS) dataset, compiled by the University of Maryland's National Consortium for the Study of Terrorism and Responses to Terrorism (START). For police use of force data, I used VICE News' dataset on police use of force in the United States' 50 largest police departments between 2010 and 2016. This was the police violence data set that covered the longest period of time. I also restricted the TEVUS dataset to the same time period for consistency. 
 
 ## Cleaning and Pre-processing data
-Manipulating the data was the most time intensive process of the project. The main problem was that the TEVUS dataset had only latitude and longitude coordinates for each event in the dataset, and the VICE dataset had only city names and states. To map the dataset, I needed to translate the city names in the VICE dataset to latitude and longitude. To do this, I created a Google API in order to use the Google Maps service to translate the cities into coordinates. Once I accessed the API, I was able to create a vector of the unique coordinates for each city in the VICE dataset. To add the new coordinates for each of the 4,400 observations in VICE, I created two functions that translated the city names into coordinates individually, then added these values into the original dataframe as a new column for each observation. 
+Manipulating the data was the most time intensive process of the project. The main problem was that the TEVUS dataset had only latitude and longitude coordinates for each event in the dataset, and the VICE dataset had only city names and states. To map the dataset, I needed to translate the city names in the VICE dataset to latitude and longitude. To do this, I created a Google API in order to use the Google Maps service to translate the cities into coordinates. Once I accessed the API, I was able to create a vector of the unique coordinates for each city in the VICE dataset. To add the new coordinates for each of the 4,400 observations in VICE, I created two functions that translated the city names into longitude then latitude individually, then added these values into the original dataframe as a new column for each observation. 
 
 ```{r, eval = FALSE}
-library(tidyverse)
-library(ggmap)
+require(tidyverse)
+require(ggmap)
 
 #Google API
-register_google(key = "")
+register_google(key = "redacted")
 getOption("ggmap")
 
 #Longitude:
@@ -61,23 +61,15 @@ adjusted_vice <- vice_latitude %>%
   mutate(longitude = lon_function(City))
 ```
 
-The next challenge was mapping both datasets onto an interactive map. After trying several different methods of mapping, I settled on the "mapview" function from the mapview package. While I was able to map the locations of police use of force, I found the map to be uninformative, since it only mapped the fifty cities that comprised the fifty largest police departments in the US. As such, I wanted to map the frequencies of police use of force to visualize where it was most prevalent. To do this, I added a dummy variable column to the data set consisting of "1," then summed the dummy variable for each city. I did the same for the TEVUS data, then mapped both data sets on the same interactive map. I had to add another dummy variable column to the TEVUS data with a character to prevent the map from creating a legend with coloring by frequency as well. I found that the size-based frequency was sufficient and that changing colors of the locations by frequency made the map more confusing. 
-
-```{r, echo=FALSE}
-
-adjusted_vice <- read.csv("Vice_with_lat_long.csv")
-tevus_dat <- read.csv("tevus_data_2010_2016_rightwing.csv")
-```
-
+The next challenge was mapping both datasets onto an interactive map. After trying several different methods of mapping, I settled on the "mapview" function from the mapview package. While I was able to map the locations of police use of force, I found the map to be uninformative, since it only mapped the fifty cities that comprised the fifty largest police departments in the US. As such, I wanted to map the frequencies of police use of force to visualize where it was most prevalent. To do this, I added a dummy variable column to the data set consisting of "1," then summed the dummy variable for each city. I did the same for the TEVUS data, then mapped both data sets on the same interactive map. I had to add another dummy variable column to the TEVUS data with a character to prevent the map from creating a legend with coloring by frequency. I found that points with size-based frequency was sufficient and that also changing colors of the locations by frequency made the map more confusing. 
 
 ```{r, eval = FALSE}
-library(ggplot2)
-library(dplyr)
-library(sf)
-library(mapview)
-library(leaflet)
-library(tidyverse)
-library(viridis)
+require(ggplot2)
+require(dplyr)
+require(sf)
+require(mapview)
+require(leaflet)
+require(viridis)
 
 #Getting frequencies for VICE
 test_freq_vice <- adjusted_vice %>%
@@ -104,14 +96,14 @@ mapview(TEVUS, color = viridis, col.regions = viridis, cex = "sum(Dummy)", Legen
 ```
 
 ```{r, out.width = "200px", echo=FALSE}
-knitr::include_graphics("Rplot01.jpg")
+knitr::include_graphics("TEVUS_VICE_map.png")
 knitr::include_graphics("Rplot02.jpg")
 ```
 
-Next, I had hoped to merge the datasets to see which locations had both police violence and right wing extremist violence. To do this, I needed to merge based on a unit of location more general than latitude and longitude. However, as I noted earlier, the TEVUS dataset only has coordinates. As such, I used the "revgeo" function to convert the coordinate data into city, state, and zipcode. This process introduced a host of new problems because I decided to also gather zip codes for the VICE dataset. However, the Google Maps API crashed everytime I tried to convert the entire VICE dataset. To get around this issue, I created a dataframe of the unique locations in the VICE dataset, passed this set into the revgeo function, and then added the new location information back into the adjusted VICE dataframe. 
+Next, I wanted to merge the datasets to see which locations had both police violence and right wing extremist violence. To do this, I needed to merge based on a unit of location more general than latitude and longitude. However, as I noted earlier, the TEVUS dataset only has coordinates. As such, I used the "revgeo" function to convert the coordinate data into city, state, and zipcode for each observation. This process introduced a host of new problems because I decided to also gather zip codes for the VICE dataset. However, the Google Maps API crashed everytime I tried to gather zip codes for the entire VICE dataset. To get around this issue, I created a dataframe of the unique locations in the VICE dataset, passed this set into the revgeo function, and then added the new location information back into the adjusted VICE dataframe. 
 
 ```{r eval = FALSE}
-library(revgeo)
+require(revgeo)
 
 #Unique latitude and longitude data for TEVUS
 tevus_lat_long <- tevus_dat[, 2:3]
@@ -122,7 +114,7 @@ vice_lat_long <- adjusted_vice[, 18:19]
 #Converting TEVUS coordinates to city, state, and zipcode
 county_tevus <- revgeo(tevus_lat_long$Longitude, tevus_lat_long$Latitude,
                        provider= 'google', API = 
-                         "", output = 
+                         "redacted", output = 
                          'frame')
 
 #Finding unique latitude and longitude values for VICE
@@ -132,7 +124,7 @@ vice_lat_long_unique <- vice_lat_long %>%
 
 county_vice <- revgeo(vice_lat_long_unique$longitude,
                       vice_lat_long_unique$latitude, provider= 'google', API = 
-                        "", output = 
+                        "redacted", output = 
                         'frame')
 
 #Creating a dataframe to be added back to full unique dataset 
@@ -157,11 +149,11 @@ full_vice_dat <- full_vice_dat[, -28]
 names(full_vice_dat)[10] <- "longitude"
 
 ```
-Now that both the TEVUS and VICE datasets had latitude, longitude, city, state, and zip code information, I begin to merge datasets of only the locations at different levels of analysis. To do this, I created columns with the unique zip codes, cities, and states for each data set and the number of events at this location for each data set. I then merged these columns together to create a new dataframe of one location (either zip code, city, or state) and two columns for each data set listing the frequency of attacks at this location. The data sets  only had seven zip codes in common, so I knew I would have to focus on cities or states. The data sets shared 17 cities - still too few to do analysis on. There were 24 states with both police use of force events and right wing extremist violence, giving me the most data to work with for analysis purposes. 
+Now that both the TEVUS and VICE datasets had latitude, longitude, city, state, and zip code information, I began to merge datasets of only the locations at different levels of analysis. To do this, I created columns with the unique zip codes, cities, and states and the number of events at this location for each data set. I then merged these columns together to create a new dataframe of one location (either zip code, city, or state) and two columns for each data set listing the frequency of attacks at this location. The data sets  only had seven zip codes in common, so I knew I would have to focus on cities or states. The data sets shared 17 cities - still too few to do analysis on. There were 24 states with both police use of force events and right wing extremist violence, giving me the most data to work with for analysis purposes. 
 
 ```{r, echo = FALSE}
-full_vice_dat <- read.csv("full_vice_dat.csv")
-county_tevus <- read.csv("TEVUS_county.csv")
+full_vice_dat <- read.csv("VICE_police_violence_locations.csv")
+county_tevus <- read.csv("TEVUS_right_wing_locations.csv")
 library(tidyverse)
 ```
 
@@ -187,14 +179,14 @@ names(state_merge)[3] <- "tevus"
 head(state_merge)
 ```
 ## Analysis and visualization
-Aside from the map visualization above, I decided to also make a plot of the states and the number of police use of force and right wing extremist violence events in both. I added a column of state abbreviations to the merged dataset to make data visualization easier.
+Along with the map visualization above, I decided to make a plot of the number of police use of force and right wing extremist events in each state that had both event types. Finally, I ran a simple linear regression of the VICE data set on TEVUS, producing an AJPS-style text table. 
 
 ```{r, out.width = "400px", fig.align="center", echo=FALSE}
-knitr::include_graphics("Rplot.jpg")
+knitr::include_graphics("TEVUS_VICE_by_state.png")
 ```
 
 ```{r, echo = FALSE}
-library(stargazer)
+require(stargazer)
 
 mod_1 <- lm(data = state_merge, vice ~ tevus)
 
@@ -206,4 +198,4 @@ stargazer(mod_1, title = "Regression Results for States", type = "text",
 ```
 
 ## Future work
-Ultimately, the results are inconclusive. There is not enough right wing extremist violence events to properly compare between the two datasets. In continuing this work, I hope to add another data set of hate crimes by location from the US Department of Justice, as these crimes are often associated with white supremacist activity. I also hope to merge several of the existing datasets on police use of force in the United States to get a more comprehensive data set over a longer period of time. With these additions, I would be able to run more robust statistical models. 
+Ultimately, the results are inconclusive. There are not enough right wing extremist events to properly compare between the two datasets. In continuing this work, I hope to add another data set of hate crimes by location from the US Department of Justice, as these crimes are often associated with white supremacist activity. I also hope to merge several of the existing datasets on police use of force in the United States to get a more comprehensive data set over a longer period of time. With these additions, I would be able to run more robust statistical models. 
