@@ -13,8 +13,6 @@ This project compares locations of police use of force and right wing extremist 
 
 ## Files
 
-####/
-
 1. Van Nuys Narrative.Rmd: Provides a 3-5 page narrative of the project, main challenges, solutions, and results.
 2. Van Nuys Narrative.pdf: A knitted pdf of the Narrative.Rmd.
 3. Van_Nuys_final_presentation.pptx: Lightning talk slides
