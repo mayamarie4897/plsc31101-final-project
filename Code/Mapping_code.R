@@ -3,8 +3,6 @@ require(ggmap)
 require(tidyverse)
 
 #Loading data
-setwd("~/Fall Quarter 2019/Computation Social Science/2019 Final Project")
-
 #Police use of force: VICE
 vice_dat <- read.csv("vice_news_original_data.csv")
 
